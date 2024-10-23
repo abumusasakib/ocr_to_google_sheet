@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "google_mlkit_text_recognition",
+            "cwd": "google_mlkit_text_recognition",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "google_mlkit_text_recognition (profile mode)",
+            "cwd": "google_mlkit_text_recognition",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "google_mlkit_text_recognition (release mode)",
+            "cwd": "google_mlkit_text_recognition",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "ocr_example",
+            "cwd": "ocr_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ocr_example (profile mode)",
+            "cwd": "ocr_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ocr_example (release mode)",
+            "cwd": "ocr_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
