@@ -5,9 +5,12 @@ import 'package:live_ocr/utils_google.dart';
 import 'package:live_ocr/home_screen_view.dart';
 import 'package:live_ocr/google_signin_view.dart';
 import 'package:googleapis/drive/v3.dart' as drive;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  await dotenv.load();
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
